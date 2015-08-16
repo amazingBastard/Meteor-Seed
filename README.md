@@ -81,6 +81,7 @@ app/                # Application folder
         common/             # Common components (i.e. header, footer)
         elements/           # Re-usable components
   collections/        # Collection files, for each Meteor.Collection
+  packages/           # Packages folder (custom meteor packages, npm)
   private/            # Private files
   public/             # Public files
   router/             # All routes
