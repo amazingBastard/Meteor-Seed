@@ -5,8 +5,8 @@
 
 App = {
   Constants: {},
-  // Small reusable utilities
-  Utils: {},
+  // Reusable modules
+  Modules: {},
   // Meteor Mongo Collections
   Collections: {},
   // Domain specific logic.
