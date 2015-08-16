@@ -1,6 +1,6 @@
 Package.describe({
   name: 'app:core',
-  version: '0.0.1',
+  version: '0.0.0',
   summary: 'Defines the global namespaces and the application configuration.'
 });
 

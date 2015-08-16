@@ -4,7 +4,7 @@ Meteor.methods({
     App.Collections.Quotes.remove({});
   },
 
-  'seedData': Letterpress.Modules.seedData,
+  'seedData': App.Modules.seedData,
 
   'fixturesCreate': function(fixtures) {
     quotes = [].concat(fixtures);

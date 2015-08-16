@@ -2,8 +2,8 @@ App.Modules.seedData = function () {
   var now = new Date();
 
   App.Collections.Quotes.insert({
-    quote: '/',
-    author: 'landingPage'
+    quote: 'This is a quote',
+    author: 'Author'
 		createdAt: now
   });
 

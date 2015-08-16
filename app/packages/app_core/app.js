@@ -1,7 +1,7 @@
 // This is the only file where globals should be declared.
 // We do this, so we can have all other files in strict mode.
 
-// globals App: true
+globals App: true
 
 App = {
   Constants: {},
