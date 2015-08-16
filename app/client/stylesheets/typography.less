@@ -1,0 +1,274 @@
+@import 'variables';
+
+// typography styles
+
+html {
+
+  body {
+    color: @font-color;
+		font-family: @font-family-monospace;
+    font-size: @font-size-base;
+    line-height: @line-height-base;
+
+    p, a, li, pre, code, figcaption, .button {
+      margin: 0;
+      margin-bottom: @space-base;
+      font-family: @font-family-monospace;
+      font-size: @font-size-base;
+      line-height: @line-height-large;
+
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-base + @font-size-mini;
+      }
+
+      @media (min-width: @desktop-width) {
+        font-size: @font-size-base + @font-size-tiny;
+      }
+
+      @media (min-width: @large-desktop-width) {
+        font-size: @font-size-base + @font-size-small;
+      }
+
+      @media (min-width: @huge-desktop-width) {
+        font-size: @font-size-large;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @font-size-large + @font-size-mini;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @font-size-large + @font-size-tiny;
+      }
+
+      @media (min-width: @massive-desktop-width) {
+        font-size: @font-size-large + @font-size-small;
+      }
+    }
+
+    a {
+      color: @gray;
+      font-family: @font-family-serif;
+      text-decoration: underline;
+
+      &:hover,
+      &:focus {
+        color: @secondary-color;
+      }
+    }
+
+    pre, code {
+      overflow: auto;
+      padding: @space-base;
+      color: @light;
+      background: @secondary-color;
+      border-radius: @space-tiny;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      margin-bottom: @space-base;
+      color: @header-color;
+      font-family: @font-family-serif;
+      font-weight: bold;
+
+      small {
+        color: lighten(@header-color, @eighth);
+      }
+    }
+
+    h1 {
+      font-size: @font-size-large + @font-size-micro;
+
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-large + @font-size-mini;
+      }
+
+      @media (min-width: @desktop-width) {
+        font-size: @font-size-large + @font-size-tiny;
+      }
+
+      @media (min-width: @large-desktop-width) {
+        font-size: @font-size-large + @font-size-small;
+      }
+
+      @media (min-width: @huge-desktop-width) {
+        font-size: @font-size-huge;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @font-size-huge + @font-size-mini;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @font-size-huge + @font-size-tiny;
+      }
+
+      @media (min-width: @massive-desktop-width) {
+        font-size: @font-size-huge + @font-size-small;
+      }
+    }
+
+    h2 {
+      font-size: @font-size-base + @font-size-small;
+      color: @gray-darker;
+
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-large;
+      }
+
+      @media (min-width: @desktop-width) {
+        font-size: @font-size-large + @font-size-mini;
+      }
+
+      @media (min-width: @large-desktop-width) {
+        font-size: @font-size-large + @font-size-tiny;
+      }
+
+      @media (min-width: @huge-desktop-width) {
+        font-size: @font-size-large + @font-size-small;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @font-size-huge;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @font-size-huge + @font-size-mini;
+      }
+
+      @media (min-width: @massive-desktop-width) {
+        font-size: @font-size-huge + @font-size-tiny;
+      }
+    }
+
+    h3 {
+      font-size: @font-size-base + @font-size-mini;
+
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-base + @font-size-tiny;
+      }
+
+      @media (min-width: @desktop-width) {
+        font-size: @font-size-base + @font-size-small;
+      }
+
+      @media (min-width: @large-desktop-width) {
+        font-size: @font-size-large;
+      }
+
+      @media (min-width: @huge-desktop-width) {
+        font-size: @font-size-large + @font-size-mini;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @font-size-large + @font-size-tiny;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @font-size-large + @font-size-small;
+      }
+
+      @media (min-width: @massive-desktop-width) {
+        font-size: @font-size-huge;
+      }
+    }
+
+    h4 {
+      font-size: @font-size-base;
+      letter-spacing: @space-quantum;
+
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-base + @font-size-mini;
+      }
+
+      @media (min-width: @desktop-width) {
+        font-size: @font-size-base + @font-size-tiny;
+      }
+
+      @media (min-width: @large-desktop-width) {
+        font-size: @font-size-base + @font-size-small;
+      }
+
+      @media (min-width: @huge-desktop-width) {
+        font-size: @font-size-large;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @font-size-large + @font-size-micro;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @font-size-large + @font-size-mini;
+      }
+
+      @media (min-width: @massive-desktop-width) {
+        font-size: @font-size-large + @font-size-tiny;
+      }
+    }
+
+    h5 {
+      font-size: @font-size-small + @font-size-tiny;
+
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-base;
+      }
+
+      @media (min-width: @desktop-width) {
+        font-size: @font-size-base + @font-size-micro;
+      }
+
+      @media (min-width: @large-desktop-width) {
+        font-size: @font-size-base + @font-size-mini;
+      }
+
+      @media (min-width: @huge-desktop-width) {
+        font-size: @font-size-base + @font-size-tiny;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @font-size-large;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @font-size-large + @font-size-micro;
+      }
+
+      @media (min-width: @massive-desktop-width) {
+        font-size: @font-size-large + @font-size-mini;
+      }
+    }
+
+    h6 {
+      font-size: @font-size-small + @font-size-mini;
+
+      @media (min-width: @tablet-width) {
+        font-size: @font-size-small + @font-size-tiny;
+      }
+
+      @media (min-width: @desktop-width) {
+        font-size: @font-size-base;
+      }
+
+      @media (min-width: @large-desktop-width) {
+        font-size: @font-size-base + @font-size-micro;
+      }
+
+      @media (min-width: @huge-desktop-width) {
+        font-size: @font-size-base + @font-size-mini;
+      }
+
+      @media (min-width: @jumbo-desktop-width) {
+        font-size: @font-size-base + @font-size-tiny;
+      }
+
+      @media (min-width: @giant-desktop-width) {
+        font-size: @font-size-large;
+      }
+
+      @media (min-width: @massive-desktop-width) {
+        font-size: @font-size-large + @font-size-micro;
+      }
+    }
+	}
+}
