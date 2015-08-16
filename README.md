@@ -69,11 +69,9 @@ app/                # Application folder
       layouts/            # Router layouts
       views/              # All the views
       modules/            # UI elements and components (i.e. forms, actions, etc...)
-       common/              # Common components (i.e. header, footer)
-       elements/            # Re-usable components
-  orion/              # Orion CMS files
-    dictionary/         # Orion dictionary definitions
-  models/             # Model files, for each Meteor.Collection
+        common/             # Common components (i.e. header, footer)
+        elements/           # Re-usable components
+  collections/        # Collection files, for each Meteor.Collection
   private/            # Private files
   public/             # Public files
   router/             # All routes
