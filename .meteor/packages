@@ -4,14 +4,11 @@
 # but you can also edit it by hand.
 
 meteor-platform
-mizzao:bootstrap-3
-meteorhacks:zones
-iron:router
-daniel:regulate.js
-mrt:moment
-natestrauser:font-awesome
-accounts-password
-ian:accounts-ui-bootstrap-3
-alanning:roles
-sacha:spin
 
+fortawesome:fontawesome
+dburles:collection-helpers
+fastclick
+natestrauser:animate-css
+flemay:less-autoprefixer
+momentjs:moment
+msavin:mongol
