@@ -24,8 +24,8 @@ curl https://install.meteor.com/ | sh
 ### Installation
 
 ```
-git clone git@github.com:withpulp/minimal-agency.git
-cd minimal-agency
+git clone git@github.com:amazingBastard/Meteor-Seed.git
+cd Meteor-Seed
 meteor
 ```
 
