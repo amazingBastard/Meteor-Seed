@@ -1,7 +1,10 @@
 # Meteor Seed
 
-A starter seed for Meteor with folder structure and pre-added packages.
+A starter kit for Meteor with folder structure and pre-added packages.
 
+**Note: Still a work in progress.**
+
+* [Roadmap](#roadmap)
 * [How to use](#how-to-use)
   * [Requirements](#requirements)
   * [Installation](#installation)
@@ -9,7 +12,13 @@ A starter seed for Meteor with folder structure and pre-added packages.
 * [Structure](#structure)
   * [Packages used](#packages-used)
   * [Folder structure](#folder-structure)
+* [Attributions](#attributions)
 * [License](#license)
+
+## Roadmap
+
+* Add tests
+* Setup build environment
 
 ## How to use
 
@@ -94,5 +103,12 @@ environments/       # Environments folder
 
 ```
 
+## Attributions
+
+The app structure is my own deviation from the structure used in [Meteor Boilerplate](https://github.com/matteodem/meteor-boilerplate)/
+
+Separating the app and environments was something I learned from [Josh Owens](https://github.com/queso) and [Sam Hattoum](https://github.com/samhatoum).
+
 ## License
+
 This project has an MIT License, see the LICENSE.txt for more information.
