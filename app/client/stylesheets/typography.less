@@ -10,7 +10,7 @@ html {
     font-size: @font-size-base;
     line-height: @line-height-base;
 
-    p, a, li, td, pre, code {
+    p, a, li, td, blockquote, article, figure, pre, code {
       margin: 0;
       margin-bottom: @space-base;
       font-family: @font-family-base;
@@ -74,10 +74,11 @@ html {
       border-radius: @space-mini;
     }
 
-    h1, h2, h3, h4, h5, h6, th {
+    h1, h2, h3, h4, h5, h6, th, figcaption {
       margin: 0;
       margin-bottom: @space-base;
       color: @header-color;
+      font-size: inherit;
       font-family: @font-family-base;
       font-weight: bold;
 

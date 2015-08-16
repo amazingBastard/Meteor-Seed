@@ -1,1 +1,1 @@
-App.Collections.Quotes = new Mongo.Collection('quotes');
+//App.Collections.Quotes = new Mongo.Collection('quotes');
